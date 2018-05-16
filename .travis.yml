@@ -15,7 +15,7 @@ before_script:
   - python manage.py migrate
 
 script:
-  - coverage run --source=projetoacidentes manage.py test
+  - coverage run --source=acidentes manage.py test
 
 after_success:
   - coveralls
